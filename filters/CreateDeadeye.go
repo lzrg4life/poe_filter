@@ -16,8 +16,8 @@ func CreateDeadeye1() {
 	filter.Class("Bow Quiver")
 
 	filter.Show()
-	filter.LinkedSockets(">=", "4")
-	filter.SocketGroup("", "RRGG RGGG")
+	filter.LinkedSockets(">=", "3")
+	filter.SocketGroup("", "RRG RGG")
 	filter.PlayEffect("green")
 	filter.PlayAlertSound("3", "150")
 
