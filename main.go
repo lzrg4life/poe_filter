@@ -9,4 +9,5 @@ func main() {
 	filters.CreatePhase2Filter()
 	filters.CreateDeadeye1()
 	filters.CreateDeadeye2()
+	filters.CreateRFChief()
 }
