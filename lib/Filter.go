@@ -218,12 +218,12 @@ func (f *Filter) ShowArmourShields(socketgroup string) {
 
 func (f *Filter) ShowAmythestRings() {
 	f.Show()
-	f.Class("Amethyst Ring")
+	f.Class("\"Amethyst Ring\"")
 }
 
 func (f *Filter) ShowRubyRings() {
 	f.Show()
-	f.Class("Ruby Ring")
+	f.Class("\"Ruby Ring\"")
 }
 
 func (f *Filter) addLifeFlask(name string, belowAreaLevel int) {
